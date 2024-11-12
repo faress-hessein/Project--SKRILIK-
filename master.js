@@ -1,4 +1,4 @@
-// Handel send Masege
+// Handel send Massege
 let Send = document.getElementById("btnSend");
 let YourName = document.getElementById("Your-Name");
 let YourEmail = document.getElementById("Your-Email");
