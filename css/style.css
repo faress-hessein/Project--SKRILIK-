@@ -364,7 +364,7 @@ header .container ul a:hover {
 }
 @media (max-width: 576px) {
   .news .container {
-    justify-content: flex-end;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     gap: 0;
@@ -377,12 +377,14 @@ header .container ul a:hover {
   }
   .news .container .box-cont {
     height: 140px;
+    margin-top: 100px;
   }
   .news .container img {
     height: 100px;
   }
   .news .container .cont {
     top: -76px;
+    top: 20px;
   }
 }
 /* end-news */
