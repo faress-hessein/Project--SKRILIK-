@@ -417,7 +417,7 @@ header .container ul a:hover {
   text-transform: capitalize;
   height: 50px;
 }
-.Contact .container button {
+.Contact .container #btnSend {
   cursor: pointer;
   padding: 5px 10px;
   width: fit-content;

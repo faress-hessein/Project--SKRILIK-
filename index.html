@@ -87,7 +87,19 @@
       <h2 class="special-heading autoBlur">Contact</h2>
       <div class="container">
         <h3>Contact us</h3>
-        <form>
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="autoShow"
+        >
+          <!-- Replace with your Access Key -->
+          <input
+            type="hidden"
+            name="access_key"
+            value="16680311-061d-4dbf-b850-a051b1072d2f"
+          />
+          <input type="hidden" name="WEB SITE" value="SKRILIK" />
+
           <input id="Your-Name" type="text" placeholder="name" name="name" />
           <input
             id="Your-Phone"
@@ -102,8 +114,8 @@
             name="email"
           />
           <span class="msgForm"></span>
+          <button id="btnSend" type="submit">send</button>
         </form>
-        <button id="btnSend" type="submit" href="#">send</button>
       </div>
       <footer>
         <div class="container">
